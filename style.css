@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+
+header * {
+    height: 100%;
+    display: block;
+    margin: auto;
+}
