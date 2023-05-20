@@ -117,6 +117,7 @@
 
     div.produto img {
         height: 50vh;
+        max-height: 250px;
     }
 
 }
