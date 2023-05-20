@@ -145,8 +145,10 @@
         box-sizing: border-box;
         display: block;
         margin: 20px auto;
-        height: 28vw;
-        width: 28vw;
+        height: 25vw;
+        min-height: 150px;
+        width: 25vw;
+        min-width: 120px;
     }
 
     div.produto:hover {
