@@ -14,7 +14,7 @@
     /* Tags Padrões */
 
     body {
-        background-color: black;
+        background-color: rgb(20, 20, 20);
         font-family: 'Lora', 'Times New Roman', Times, serif;
     }
     
@@ -100,6 +100,11 @@
         transform: translate(-50%, -50%);
     }
 
+    main.produto {
+        color: white;
+        margin: 20px;
+    }
+
 }
 
 @media screen and (orientation: portrait) {
@@ -119,6 +124,14 @@
         height: 50vh;
         max-height: 250px;
     }
+
+    main.produto img {
+        display: block;
+        margin: 50px auto;
+        width: 60vw;
+    }
+
+    
 
 }
 
@@ -155,6 +168,15 @@
 
     div.produto img {
         height: 50%;
+    }
+
+    main.produto img {
+        position: absolute;
+        width: 40vw;
+    }
+
+    main.produto p {
+        position: absolute;
     }
 
 }
