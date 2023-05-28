@@ -16,6 +16,7 @@
     body {
         background-color: rgb(20, 20, 20);
         font-family: 'Lora', 'Times New Roman', Times, serif;
+        min-height: 93vh;
     }
     
     /* Ids e Classes */
@@ -170,13 +171,20 @@
         height: 50%;
     }
 
-    main.produto img {
+    main.produto div.txt {
+        left: 45%;
         position: absolute;
-        width: 40vw;
+        top: 20%;
+        width: 30vw;
     }
 
-    main.produto p {
+    main.produto h1 {
+        margin: 30px;
+    }
+
+    main.produto img {
         position: absolute;
+        width: 35vw;
     }
 
 }
